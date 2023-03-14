@@ -12,18 +12,20 @@
 		48C99B54248A6E6B005780DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C99B53248A6E6B005780DE /* ViewController.swift */; };
 		48C99B59248A6E6D005780DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C99B58248A6E6D005780DE /* Assets.xcassets */; };
 		48C99B5C248A6E6D005780DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C99B5A248A6E6D005780DE /* LaunchScreen.storyboard */; };
+		B24B930129C0BE6A00D19741 /* SerialEventQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B930029C0BE6A00D19741 /* SerialEventQueueManager.swift */; };
 		B2B3AE1729ACDCBD00538A24 /* NavigationControllerAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3AE1629ACDCBD00538A24 /* NavigationControllerAnimationExtension.swift */; };
 		B2BA58B329BA1159001652F0 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = B2BA58B229BA1159001652F0 /* Collections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48874183248A789500098A33 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		48C99B4C248A6E6B005780DE /* UIKitCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C99B4C248A6E6B005780DE /* CrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C99B4F248A6E6B005780DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C99B53248A6E6B005780DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48C99B58248A6E6D005780DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48C99B5B248A6E6D005780DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48C99B5D248A6E6D005780DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24B930029C0BE6A00D19741 /* SerialEventQueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialEventQueueManager.swift; sourceTree = "<group>"; };
 		B2B3AE1629ACDCBD00538A24 /* NavigationControllerAnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerAnimationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +44,7 @@
 		48C99B43248A6E6B005780DE = {
 			isa = PBXGroup;
 			children = (
-				48C99B4E248A6E6B005780DE /* UIKitCore */,
+				48C99B4E248A6E6B005780DE /* CrashDemo */,
 				48C99B4D248A6E6B005780DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +52,12 @@
 		48C99B4D248A6E6B005780DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48C99B4C248A6E6B005780DE /* UIKitCore.app */,
+				48C99B4C248A6E6B005780DE /* CrashDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48C99B4E248A6E6B005780DE /* UIKitCore */ = {
+		48C99B4E248A6E6B005780DE /* CrashDemo */ = {
 			isa = PBXGroup;
 			children = (
 				48C99B4F248A6E6B005780DE /* AppDelegate.swift */,
@@ -65,16 +67,17 @@
 				48C99B5D248A6E6D005780DE /* Info.plist */,
 				48874183248A789500098A33 /* TestViewController.swift */,
 				B2B3AE1629ACDCBD00538A24 /* NavigationControllerAnimationExtension.swift */,
+				B24B930029C0BE6A00D19741 /* SerialEventQueueManager.swift */,
 			);
-			path = UIKitCore;
+			path = CrashDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48C99B4B248A6E6B005780DE /* UIKitCore */ = {
+		48C99B4B248A6E6B005780DE /* CrashDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48C99B60248A6E6D005780DE /* Build configuration list for PBXNativeTarget "UIKitCore" */;
+			buildConfigurationList = 48C99B60248A6E6D005780DE /* Build configuration list for PBXNativeTarget "CrashDemo" */;
 			buildPhases = (
 				48C99B48248A6E6B005780DE /* Sources */,
 				48C99B49248A6E6B005780DE /* Frameworks */,
@@ -84,12 +87,12 @@
 			);
 			dependencies = (
 			);
-			name = UIKitCore;
+			name = CrashDemo;
 			packageProductDependencies = (
 				B2BA58B229BA1159001652F0 /* Collections */,
 			);
 			productName = CrashDemo;
-			productReference = 48C99B4C248A6E6B005780DE /* UIKitCore.app */;
+			productReference = 48C99B4C248A6E6B005780DE /* CrashDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 48C99B47248A6E6B005780DE /* Build configuration list for PBXProject "UIKitCore" */;
+			buildConfigurationList = 48C99B47248A6E6B005780DE /* Build configuration list for PBXProject "CrashDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48C99B4B248A6E6B005780DE /* UIKitCore */,
+				48C99B4B248A6E6B005780DE /* CrashDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -148,6 +151,7 @@
 				B2B3AE1729ACDCBD00538A24 /* NavigationControllerAnimationExtension.swift in Sources */,
 				48C99B54248A6E6B005780DE /* ViewController.swift in Sources */,
 				48874184248A789500098A33 /* TestViewController.swift in Sources */,
+				B24B930129C0BE6A00D19741 /* SerialEventQueueManager.swift in Sources */,
 				48C99B50248A6E6B005780DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48C99B47248A6E6B005780DE /* Build configuration list for PBXProject "UIKitCore" */ = {
+		48C99B47248A6E6B005780DE /* Build configuration list for PBXProject "CrashDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48C99B5E248A6E6D005780DE /* Debug */,
@@ -330,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48C99B60248A6E6D005780DE /* Build configuration list for PBXNativeTarget "UIKitCore" */ = {
+		48C99B60248A6E6D005780DE /* Build configuration list for PBXNativeTarget "CrashDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48C99B61248A6E6D005780DE /* Debug */,

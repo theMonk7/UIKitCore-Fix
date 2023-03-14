@@ -69,6 +69,9 @@ class ViewController: UIViewController {
 //        navigationController?.presentedViewController?.present(vc4, animated: true, completion: nil)
         
         navigationController?.pushViewController(vc1, shouldAnimate: true)
+        navigationController?.pushViewController(vc2, shouldAnimate: true)
+        sleep(2)
+        navigationController?.popViewController(shouldAnimate: true)
 //        navigationController?.pushViewController(vc2, shouldAnimate: true)
 //        navigationController?.pushViewController(vc3, shouldAnimate: true)
 //        navigationController?.pushViewController(vc4, animated: true)

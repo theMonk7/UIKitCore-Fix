@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "48C99B4B248A6E6B005780DE"
-               BuildableName = "UIKitCore.app"
-               BlueprintName = "UIKitCore"
-               ReferencedContainer = "container:UIKitCore.xcodeproj">
+               BuildableName = "CrashDemo.app"
+               BlueprintName = "CrashDemo"
+               ReferencedContainer = "container:CrashDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "48C99B4B248A6E6B005780DE"
-            BuildableName = "UIKitCore.app"
-            BlueprintName = "UIKitCore"
-            ReferencedContainer = "container:UIKitCore.xcodeproj">
+            BuildableName = "CrashDemo.app"
+            BlueprintName = "CrashDemo"
+            ReferencedContainer = "container:CrashDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "48C99B4B248A6E6B005780DE"
-            BuildableName = "UIKitCore.app"
-            BlueprintName = "UIKitCore"
-            ReferencedContainer = "container:UIKitCore.xcodeproj">
+            BuildableName = "CrashDemo.app"
+            BlueprintName = "CrashDemo"
+            ReferencedContainer = "container:CrashDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
